@@ -1,0 +1,55 @@
+body{
+  background: #EEEEEE !important;
+  color: #000000 !important;
+}
+.wrapper{
+  padding: 2rem 5%;
+  background: #EEEEEE;
+  color: #000000;
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 100%;
+}
+.all-banks-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.all-banks-header-right-child{
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  align-items: center;
+}
+.page-heading{
+  color: #000000;
+  font-size: 2rem;
+  margin: 0;
+  margin-left: 10px;
+  
+}
+
+td, tr{
+  color: #000000;
+  text-align: center;
+  border: none !important;
+  border-bottom: 1px solid #7a7a7a !important;
+  
+}
+tr:hover {
+  cursor: pointer;
+}
+.ant-pagination-item-ellipsis{
+  color: #000000 !important;
+}
+.loading{
+  text-align: center;
+}
+input{
+  outline: none;
+  color: black !important;
+  padding: 4px 0 4px 6px;
+  border-radius: 4px;
+}

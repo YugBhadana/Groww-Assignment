@@ -1,0 +1,7 @@
+.root-div {
+    display: grid;
+    grid-template-columns: 20% auto;
+  }
+  *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
